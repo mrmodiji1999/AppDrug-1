@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_camera_demo/home.dart';
 
 import 'screens/camera_screen.dart';
 
@@ -25,8 +26,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: CameraScreen(),
-
+      home: home(),
     );
   }
 }
